@@ -1,0 +1,26 @@
+body{
+	padding:0px;
+	margin: 0px;
+	background-color: #EFEFEF;
+}
+#header{
+	width:100%;
+	height: 50px;
+	background-color: #0067AC;
+}
+#header img{
+	float: left;
+	margin:10px 100px;
+}
+#header .myqs{
+	float: right;
+	line-height:50px;	
+	margin-right:200px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+a{
+	text-decoration: none;
+}

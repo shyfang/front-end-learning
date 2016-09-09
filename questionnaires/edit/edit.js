@@ -1,0 +1,21 @@
+$(function(){
+	//输入问卷标题格式
+	$("#qhead").mouseover(function()
+	{
+	$(this).addClass('selected')
+	.mouseout(function(){
+		$(this).removeClass('selected');
+	});
+	$(":text").focus(function(){
+  this.select();});
+	});
+	//添加题目样式设置
+$(".add").click(function()
+	{
+		if($(this).prev().is(":visible")){
+			$(this).prev().hide();
+		}else{
+			$(this).prev().show()}
+	})
+
+})
