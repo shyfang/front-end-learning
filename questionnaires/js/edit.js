@@ -86,10 +86,14 @@ $(function(){
 
 	$(".optionsWrap").on("mouseover",".options",function(){
 		$(this).addClass('hoverQtitile');
+		$(this).find(".questionNo").css("fontWeight","bold");
+		$(this).find(".optionTitle").css("fontWeight","bold");
 	})
 
 	$(".optionsWrap").on("mouseout",".options",function(){
 		$(this).removeClass('hoverQtitile');
+		$(this).find(".questionNo").css("fontWeight","normal");
+		$(this).find(".optionTitle").css("fontWeight","normal");
 	})
 
 	$(":text").focus(function() {
