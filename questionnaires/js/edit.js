@@ -153,11 +153,11 @@ $(function(){
 	$(".optionsWrap").on("click",".plusWrap",function(){
 		var j=$(this).parent().find(".opt").length;
 		if($(this).parent().find(".opt").is(":radio")){
-		var radio=$("<div class='optWrap'><input class='opt' type='radio'  disabled='disabled'><input class='choose' type='text' value='选项"+(j+1)+"'></div>");
+		var radio=$("<div class='optWrap'><input class='opt' type='radio'  disabled='disabled'><input class='choose' type='text' value='选项"+(j+1)+"'><span class='delbtn'>X</span></div>");
 		radio.insertBefore($(this));
 	}
 	else{
-		var check=$("<div class='optWrap'><input class='opt' type='checkbox' disabled='disabled'><input class='choose' type='text' value='选项"+(j+1)+"'></div>");
+		var check=$("<div class='optWrap'><input class='opt' type='checkbox' disabled='disabled'><input class='choose' type='text' value='选项"+(j+1)+"'><span class='delbtn'>X</span></div>");
 		check.insertBefore($(this));
 		}	
 	})
