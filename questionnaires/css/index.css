@@ -1,6 +1,7 @@
 #content{
-	width: 85%;
+	width: 70%;
 	position: relative;
+	top:80px;
 	margin: 0 auto;
 }
 #content .newqs{

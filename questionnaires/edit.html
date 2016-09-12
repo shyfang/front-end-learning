@@ -8,29 +8,34 @@
 	<link rel="stylesheet" type="text/css" href="css/edit.css">
 	<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/edit.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 </head>
 <body>
 	<div id="w">
 		<div id="header">
 			<a class="mylogo" href="#"><img src="img/mylogo.gif"></a>
-			<a class="myqs" href="file:///F:/front-end-learning/questionnaires/questionnaires.html#">我的问卷</a>
+			<a class="myqs" href="index.html">我的问卷</a>
 		</div>
 		<div id="content">
 			<input id="qhead" class="qhead" type="text" name="qhead" value="请在此输入问卷名称"><hr>
 			<div class="qbody">
-				<div class="btn">
-					<input class="radioBtn" type="button" value="单选">
-					<input class="checkBtn" type="button" value="多选">
-					<input class="txtBtn" type="button" value="文本">
-				</div>
-				<div class="add">
-				<button><strong style="font-size: 1.5em;">+</strong>&nbsp&nbsp添加问题</button>
+				<div class="optionsWrap"></div>
+				<div class="btnWrap">
+					<div class="btn">
+						<input class="radioBtn" type="button" value="单选">
+						<input class="checkBtn" type="button" value="多选">
+						<input class="txtBtn" type="button" value="文本">
+					</div>
+					<div class="addQuestion">
+					<button><strong style="font-size: 1.5em;">+</strong>&nbsp&nbsp添加问题</button>
+					</div>
 				</div>
 			</div>
 			<hr>
 			<div class="qfooter">
 				<label>问卷截止日期</label>
-				<input type="text" class="deadline">
+				<input type="text" id="selectDate" class="selectDate">
 				<button>保存问卷</button>
 				<button>发布问卷</button>
 

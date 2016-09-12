@@ -2,20 +2,24 @@ body{
 	padding:0px;
 	margin: 0px;
 	background-color: #EFEFEF;
+
 }
 #header{
 	width:100%;
 	height: 50px;
 	background-color: #0067AC;
+	position:fixed;
+	top:0px;
+	z-index: 10;
 }
 #header img{
 	float: left;
-	margin:10px 100px;
+	margin:10px 200px ;
 }
 #header .myqs{
 	float: right;
 	line-height:50px;	
-	margin-right:200px;
+	margin-right:210px;
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
