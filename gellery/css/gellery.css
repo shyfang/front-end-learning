@@ -18,12 +18,11 @@
 		overflow: hidden;
 	}	
 	.nav{
-		width:20%;
+		width:23%;
 		height: 30px;
 		line-height: 30px;
 		position: absolute;
 		left: 41%;
-		margin-left: 1.5px;
 		bottom: 20px;
 		z-index: 999;
 	}
@@ -38,6 +37,7 @@
 		border-radius: 15px;
 		float: left;
 		-moz-transform:scale(0.49);
+		-webkit-transform:scale(0.49);
 	/* 	-webkit-transition:all 1.5s;
 	-moz-transition:all 1.5s; */
 	}
@@ -45,9 +45,11 @@
 	.nav .i_current{
 		background-image: url(../img/btnr.png);
 		-moz-transform:scale(1);
+		-webkit-transform:scale(1);
 	}
 	.nav .i_back{
 		-moz-transform:scale(1);
+		-webkit-transform:scale(1);
 		background-image:url(../img/btnl.png);
 
 	}
