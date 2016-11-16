@@ -1,0 +1,69 @@
+.wrap{
+	margin-top:30px;
+	width: 330px;
+	height: 570px;
+	background-image: url(iphone6.png);
+}
+.inner_wrap{
+	margin-top:65px;
+	margin-left: 11px;
+	width: 280px;
+	height: 460px;
+	background-color: #FFFFFF;
+	position: relative;
+	overflow: hidden;
+}
+
+h4{
+	margin-bottom: 10px;
+}
+.seek_block{
+	width: 100%;
+	
+	background-color: #F5F5F5;
+
+}
+
+.seek{
+	margin-bottom: 10px;
+	margin-left:10px; 
+	line-height: 36px;	
+
+}
+.seekname{
+	padding: 0px;
+	margin-left: 5px;
+	border:none;
+	line-height: 27px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.newcontact{
+	position: absolute;
+	top:38.9px;
+	right: 10px;
+}
+.btn{
+	background:none;
+}
+
+.seekresl_block{
+	margin: 0px;
+	padding: 0px;
+
+}
+.content_block{
+	width: 280px;
+	height: 370px;
+	overflow: auto;
+}
+
+.indexLetter{
+	border:none;
+	border-bottom:1px solid #DDDDDD;
+	background-color: #F5F5F5;
+	line-height: 1em;
+}
+
+
